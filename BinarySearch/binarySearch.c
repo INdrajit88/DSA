@@ -18,7 +18,7 @@ int binarySearch(int arr[],int target){
 }
 int main(){
     int arr[]={1,2,3,4,5,6,7,8,9,10};
-    int target=130;
+    int target=5;
     int ans=binarySearch(arr,target);
     printf("%d",ans);
     return 0;
